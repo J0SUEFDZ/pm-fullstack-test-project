@@ -62,7 +62,9 @@ Use the [Postmark Messages API](https://github.com/wildbit/postmark-gem/wiki/The
 
 2. Modify the React component in `app/javascript/packs/graph.jsx` to show the in-app communications as a graph.
 
-Until your first snapshot is taken, the component will show the data hard-coded in the `Snapshots` controller. Your task is to feed the snapshot data to this React component so that it shows a network of in-app communications where each node is a person and each connection is a message from one person to another. When the user highlights a line connecting two users, the inspector component should display the topics the two chatted about.
+Until your first snapshot is taken, the component will show the data hard-coded in the `Snapshots` controller. Your task is to feed the snapshot data to this React component so that it shows a network of in-app communications where each node is a person and each connection is a message from one person to another. When the user highlights a line connecting two users, the inspector component should display the topics the two chatted about. See the screenshot below for an example.
+
+![Result Example](https://github.com/wildbit/pm-fullstack-test-project/raw/master/screenshot.png)
 
 ## How we will check assignments
 
