@@ -7,7 +7,7 @@ Hi! Thank you for your interest in the full-stack developer position at Postmark
 This repository contains a Rails 5.2 app with a React frontend. To get started, follow these steps:
 
 * Clone this repository
-* Install Ruby 2.4.2 (we like to use [RVM](https://rvm.io))
+* Install Ruby 2.5.1 (we like to use [RVM](https://rvm.io))
 * Install [NVM](https://github.com/creationix/nvm).
 * Run `nvm install` in the repository root.
 * Install [Yarn](https://yarnpkg.com/en/docs/install) (required by Webpacker).
