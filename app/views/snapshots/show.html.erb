@@ -1,5 +1,5 @@
-<%= javascript_tag do %>
-var SNAPSHOT_DATA = <%= json_escape((@snapshot&.data || {}).to_json).html_safe %>;
-<% end %>
+<script>
+var SNAPSHOT_DATA = <%= raw json_escape((@snapshot&.data || {}).to_json) %>;
+</script>
 
 <%= javascript_pack_tag 'graph' %>
