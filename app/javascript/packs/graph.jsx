@@ -29,7 +29,7 @@ const LinkShape = PropTypes.shape({
   target: PropTypes.string.isRequired,
 })
 
-const SnaphotShape = PropTypes.shape({
+const SnapshotShape = PropTypes.shape({
   nodes: PropTypes.arrayOf(NodeShape).isRequired,
   links: PropTypes.arrayOf(LinkShape).isRequired,
 })
@@ -101,7 +101,7 @@ const App = ({ snapshot }) => {
   )
 }
 App.propTypes = {
-  snapshot: SnaphotShape.isRequired,
+  snapshot: SnapshotShape.isRequired,
 }
 
 const DUMMY_SNAPSHOT = {
