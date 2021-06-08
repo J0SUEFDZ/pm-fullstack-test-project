@@ -4,7 +4,7 @@ Hi! Thank you for your interest in the full-stack developer position at Postmark
 
 ## Setting things up
 
-This repository contains a Rails 5.2 app with a React frontend. To get started, follow these steps:
+This repository contains a Rails app with a React frontend. To get started, follow these steps:
 
 * Install Ruby 2.6.6 (we like to use [RVM](https://rvm.io))
 * Install [NVM](https://github.com/creationix/nvm).
