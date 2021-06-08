@@ -57,7 +57,7 @@ The app’s boilerplate consists of a Rake task `snapshot:take` that takes a (sa
 
 1. Modify the `lib/tasks/snapshot.rake` Rake task that creates a snapshot of the in-app communications
 
-Use the [Postmark Messages API](https://github.com/wildbit/postmark-gem/wiki/The-Messages-API-support) to build and save an instance of the `Snapshot` (`app/models/snapshot.rb`) model. Note that the model doesn’t specify the format of the communications snapshot. Use your own judgment to pick one. Keep in mind that a good data format picked here will save you time on step #2.
+Use the [Postmark Messages API](https://github.com/wildbit/postmark-gem/wiki/Messages) to build and save an instance of the `Snapshot` (`app/models/snapshot.rb`) model. Note that the model doesn’t specify the format of the communications snapshot. Use your own judgment to pick one. Keep in mind that a good data format picked here will save you time on step #2.
 
 2. Modify the React component in `app/javascript/packs/graph.jsx` to show the in-app communications as a graph.
 
