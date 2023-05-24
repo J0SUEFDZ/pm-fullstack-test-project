@@ -1,6 +1,6 @@
 # Postmark Full-Stack Developer Test Project
 
-Hi! Thank you for your interest in the full-stack developer position at Wildbit. We ask that you complete a small test project for us to better understand how you approach problems. It’ll also allow us to appreciate your command of the technologies that we use at work 🙂
+Hi! Thank you for your interest in the full-stack developer position at ActiveCampaign's Postmark team. We ask that you complete a small test project for us to better understand how you approach problems. It’ll also allow us to appreciate your command of the technologies that we use at work 🙂
 
 ## Setting things up
 
