@@ -6,7 +6,7 @@ Hi! Thank you for your interest in the full-stack developer position at ActiveCa
 
 This repository contains a Rails app with a React frontend. To get started, follow these steps:
 
-* Install Ruby 2.6.6 (we like to use [RVM](https://rvm.io))
+* Install Ruby 2.7.7 (we like to use [RVM](https://rvm.io))
 * Install [NVM](https://github.com/creationix/nvm).
 * Run `nvm install` in the repository root.
 * Install [Yarn](https://yarnpkg.com/en/docs/install) (required by Webpacker).
