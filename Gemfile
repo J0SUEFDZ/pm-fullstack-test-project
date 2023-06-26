@@ -1,28 +1,26 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby File.read('.ruby-version').sub(/ruby-/,'')
+ruby "3.2.2"
 
-gem 'rails', '~> 6.0'
+gem "rails", "~> 7.0"
 
-gem 'bootsnap', '>= 1.4.4', require: false
-gem 'jbuilder', '~> 2.7'
-gem 'postmark'
-gem 'puma', '~> 5.0'
-gem 'sqlite3', '~> 1.4'
-gem 'webpacker', '~> 5.0'
+gem "bootsnap", require: false
+gem "jbuilder"
+gem "postmark"
+gem "puma", "~> 5.0"
+gem "sqlite3", "~> 1.4"
+gem "webpacker", "~> 5.0"
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'dotenv-rails'
+  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem "dotenv-rails"
 end
 
 group :development do
-  gem 'web-console', '>= 4.1.0'
-  gem 'rack-mini-profiler', '~> 2.0'
-  gem 'listen', '~> 3.3'
-  gem 'spring'
+  gem "web-console"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]

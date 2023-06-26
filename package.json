@@ -4,15 +4,17 @@
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "@rails/webpacker": "5.2.1",
+    "@rails/webpacker": "5.4.4",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "d3": "^5",
     "prop-types": "^15.7.2",
     "react": "^16",
     "react-d3-graph": "^2.6",
-    "react-dom": "^16"
+    "react-dom": "^16",
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.11.2"
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^3"
   }
 }
