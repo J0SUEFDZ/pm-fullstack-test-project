@@ -6,24 +6,13 @@ Hi! Thank you for your interest in the full-stack developer position at ActiveCa
 
 This repository contains a Rails app with a React frontend. To get started, follow these steps:
 
+* `cp .env-example .env` and update the `.env` file with the Postmark Server API token you have been assigned.
 * Install the Ruby version found in [.ruby-version](/.ruby-version) (we like to use [RVM](https://rvm.io)).
 * Install [NVM](https://github.com/creationix/nvm).
 * Run `nvm install` in the repository root.
 * Install [Yarn](https://yarnpkg.com/en/docs/install) (required by Webpacker).
 * Depending on your platform, you might need to install libsqlite3 for SQLite support.
 * Run `bin/setup`.
-
-Once everything is installed, create a copy of the `.env` file and update the created file with the Postmark Server API token you have been assigned.
-
-``` bash
-cp .env-example .env
-```
-
-The `.env` file should looks something like this:
-
-``` bash
-POSTMARK_API_TOKEN=583639be-xxxx-xxxx-xxxx-1a82209b6a98
-```
 
 To verify that your dev environment is set up correctly, run the Rails server and open [http://localhost:3000/](http://localhost:3000/) in your browser.
 

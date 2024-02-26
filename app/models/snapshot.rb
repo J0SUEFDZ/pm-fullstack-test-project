@@ -1,7 +1,7 @@
 require 'mail'
 
 class Snapshot < ApplicationRecord
-  serialize :data, JSON
+  serialize :data, coder: JSON
 
   def self.take
     connection = Postmark::ApiClient.new(Rails.application.config.x.postmark.api_token)

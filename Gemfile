@@ -8,8 +8,8 @@ gem "rails", "~> 7.0"
 gem "bootsnap", require: false
 gem "jbuilder"
 gem "postmark"
-gem "puma", "~> 5.0"
-gem "sqlite3", "~> 1.4"
+gem "puma"
+gem "sqlite3"
 gem "webpacker", "~> 5.0"
 
 group :development, :test do

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2018_09_02_000324) do
+ActiveRecord::Schema[7.1].define(version: 2018_09_02_000324) do
   create_table "snapshots", force: :cascade do |t|
     t.text "data", limit: 65536
     t.datetime "created_at", precision: nil, null: false
