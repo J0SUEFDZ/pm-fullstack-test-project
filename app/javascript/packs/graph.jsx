@@ -56,8 +56,7 @@ Inspector.propTypes = {
 const App = ({ snapshot }) => {
   const [currentSource, setCurrentSource] = React.useState()
   const [currentTarget, setCurrentTarget] = React.useState()
-
-  const topics = 'Cheese and Wine' // FIXME
+  const [currentTopics, setCurrentTopics] = React.useState('Cheese and Wine')
 
   const handleClickNode = _nodeId => {}
 
@@ -70,11 +69,14 @@ const App = ({ snapshot }) => {
   const handleMouseOverLink = (source, target) => {
     setCurrentSource(source)
     setCurrentTarget(target)
+    const allTopics = snapshot.topics
+    setCurrentTopics(allTopics[source][target] ?? 'Unknown')
   }
 
   const handleMouseOutLink = (_source, _target) => {
     setCurrentSource(undefined)
     setCurrentTarget(undefined)
+    setCurrentTopics(undefined)
   }
 
   return (
@@ -83,7 +85,7 @@ const App = ({ snapshot }) => {
         <Inspector
           source={currentSource}
           target={currentTarget}
-          topics={topics}
+          topics={currentTopics}
         />
       </div>
       <Graph
